@@ -1,0 +1,38 @@
+
+.search input {
+	width: 280px;
+	border-radius: 10px;
+	margin: 15px 10px 5px 10px;
+	padding: 5px 5px 5px 10px;
+}
+
+.search .filter-topics{
+	left: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 2px;
+}
+
+.topics {
+	border: 1px solid silver;
+	border-radius: 10px;
+	margin: 15px 0 15px 0;
+	text-align: center;
+	padding: 5px;
+}
+
+.topics:hover {
+	background-color: red;
+	border-color: silver;
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
+main{
+	position: absolute;
+	border: 1px solid red;
+	left: 300px;
+	width: 1620px;
+	height: 100%;
+}
+
